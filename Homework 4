@@ -1,0 +1,10 @@
+The second chapter of the pragmatic programmer discussed all the ways that we as programmers can organize our code and the benefits of
+doing it. One of the most talked about ideas was that of orthogonality. Orthogonal systems are systems that are independent from one 
+another. This is incredibly beneficial as it allows a method in a program to have a single purpose. Now when you need that specific 
+command to run and something crashes you no longer have to go searching through several hundreds of lines of code to even figure out where
+the problem is occurring. Orthogonality fits hand in hand with the DRY principle. DRY means don't repeat your code. Ensuring that every
+method has its own unique purpose means that you are not wasting time. This is in writing the code and in figuring out where a problem
+may be happening. One of the most important components of organization, which I agree with, is that everything should have a single purpose
+If everything has a single purpose, then maintenances become significantly easier, which very important in today’s society. The code also 
+becomes more flexible. If you find you do not want a program to have a certain feature in it then removing that functionality becomes 
+significantly simpler when the code does not rely on several other variables.
