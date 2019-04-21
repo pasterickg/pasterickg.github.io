@@ -1,0 +1,7 @@
+I believe that 12 factor is a really nice standard guide to how things should be done in the programing process. I found that one of 
+the most important factors that was brought up was to make sure that ones code is completely disposable. It is important becasue it makes
+things easier on new people coming in to understand what is happening and what needs to be done. Disposablility also allows for code to be 
+easily changed and amnipulated to fit different types of integrations. I also thought that staging developent was very important. It is 
+critical that everyone understands their priorities. We want to ensure that only the people that need access to certain information have
+access to it. In general, I thought that most of the components were important to discuss as they are vital to start a piece of software
+and to maintain that piece of software as it gets older.
