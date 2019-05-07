@@ -1,0 +1,13 @@
+Chapter 4 of the Pragmatic Programmer, discussed the benefits and tools needed to become an imperfect software engineer. Similar to 
+the concept of defensive driving, we are naturally programed to believe that everyone else is the danger and not ourselves. Defensive
+programmers do not trust any of the code that has been given to them and believes that at some point this will enevitably fail at the 
+most inopportune time. We believe this so much that we should not even trust code we have written ourselves. Personally, I think that 
+there is a lot of truth to this. More often than I would like to admit, I write something and get it working and then later down the road
+There ends up being an series of errors stemming from that code that was working perfectly fine a second ago. If we used the suggested
+tactics such as DBC, design by contract, or assertions, it would handle a lot of those errors in a more helpful way. The assertions, 
+personally, seem incredibly beneficial. They assert that a certain result is going to happen, based on what one would expect the results
+to be. However, instead of letting the program continue further, it stops and notifies the user. This is helpful for a number of reasons.
+The first being it notifies us that there is some mistake in the code. Knowing there is an error we then can quickly figure out where it
+occurs, which eliminates time that one would have to spend identifying its location. In general, I think this chapter helped cement the 
+fact that we are not perfect programmers. We are going to make mistakes, but if we can learn to expect mistakes and design our code to 
+help identify them, then we can help ourselves and others even when we might think something works.
